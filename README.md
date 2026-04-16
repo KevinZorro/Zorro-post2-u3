@@ -144,20 +144,6 @@ Estado del pago: APROBADO ✓
 Pago exitoso: true
 
 
-## Estructura del Proyecto
-
-src/main/java/com/universidad/tienda/
-├── TiendaApp.java ← Punto de entrada Spring Boot
-├── adapter/ ← Patrón Adapter
-│ ├── PasarelaPago.java (Target)
-│ ├── PayPalAPI.java (Adaptee 1)
-│ ├── StripeAPI.java (Adaptee 2)
-│ ├── PayPalAdapter.java (Adapter 1)
-│ └── StripeAdapter.java (Adapter 2)
-├── composite/ ← Patrón Composite
-│ ├── ItemCatalogo.java (Component)
-│ ├── Producto.java (Leaf)
-│ └── Categoria.java (Composite)
-└── servicio/
-└── TiendaServicio.java ← Orquesta ambos patrones
-
+## Captura de Pantalla
+Ejecucion
+<img width="925" height="505" alt="image" src="https://github.com/user-attachments/assets/8950294a-71f6-4755-8ad9-75a7470f5a70" />
